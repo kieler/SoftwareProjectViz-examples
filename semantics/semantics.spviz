@@ -1,0 +1,49 @@
+package de.cau.cs.kieler.spviz.semanticsviz
+import "semantics.spvizmodel"
+
+SPViz SemanticsViz {
+	Products {
+		show Semantics.Product
+	}
+	
+	ModuleDependencies {
+		show Semantics.Module
+		connect Semantics.Module.Dependency
+	}
+	
+	ModuleServices {
+		show Semantics.Module
+		connect Semantics.Module.ServiceProvision
+	}
+	
+	Services {
+		show Semantics.ComponentInterface
+		show Semantics.ComponentImplementation
+		connect Semantics.ComponentInterface.Provided
+	}
+	
+//	Modules { // FIXME: this causes an issue in the .xcore file as it duplicates the "all...shown variables"
+//		show Semantics.Module
+//		connect Semantics.Module.Dependency
+//		connect Semantics.Module.ServiceProvision
+//	}
+	
+	Semantics.Product shows {
+		ModuleDependencies with {
+			Semantics.Module from Semantics.Product>Semantics.Module
+		}
+		ModuleServices with {
+			Semantics.Module from Semantics.Product>Semantics.Module
+		}
+//		Modules with {
+//			Semantics.Module from Semantics.Product>Semantics.Module
+//		}
+	}
+	
+	Semantics.Module shows {
+		Services with {
+			Semantics.ComponentInterface from Semantics.Module>Semantics.ComponentInterface
+			Semantics.ComponentImplementation from Semantics.Module>Semantics.ComponentImplementation
+		}
+	}
+}

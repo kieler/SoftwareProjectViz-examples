@@ -1,0 +1,28 @@
+package de.cau.cs.kieler.spviz.semantics
+
+SPVizModel Semantics {
+	Product {
+		contains Module
+	}
+	
+	Module {
+		Dependency connects Module
+		ServiceProvision connects Module
+		contains ComponentInterface
+		contains ComponentImplementation
+	}
+	
+	ComponentInterface {
+		Provided connects ComponentImplementation
+	}
+	
+	ComponentImplementation
+}
+
+// Service-Bundle Assoziation
+// Service-Abhängigkeiten im Bundle-Context
+// Keine Multi-Level Services, nur die Bundle Ansicht relevant
+// Kombination mit anderen Repositories
+// Auch aus Sicht des gesamten KIELER Projekts
+// Interne/Externe Dependency
+// Produkte mit dependencies.txt analysieren
