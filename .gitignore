@@ -11,7 +11,10 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 
 # Eclipse m2e generated files
-# Eclipse Core
-.project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# build folders
+bin/
+xtend-gen/
+test-bin/
