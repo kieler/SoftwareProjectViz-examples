@@ -6,6 +6,8 @@
 	   <groupId>de.cau.cs.kieler.spviz</groupId>
 	   <artifactId>parent</artifactId>
 	   <version>0.1.0-SNAPSHOT</version>
+       <relativePath>../spviz.build/pom.xml</relativePath> <!-- Only works like this if the parent will be generated at this relative path
+       (so, if the generator is next to the other generated bundles). Adapt this path for other use cases. -->
 	</parent>
   
 	<modelVersion>4.0.0</modelVersion>
