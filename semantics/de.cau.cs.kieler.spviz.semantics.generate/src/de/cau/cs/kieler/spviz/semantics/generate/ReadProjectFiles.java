@@ -148,22 +148,6 @@ public class ReadProjectFiles {
         	project.getComponentInterfaces().remove(interfaceToRemove);
         }
         
-        // Link up all modules with service implementations with the modules defining the implemented interface (if available in this project).
-        for (ComponentInterface implementedInterface : project.getComponentInterfaces()) {
-        	if (implementedInterface.getModules().size() > 1) {
-        		LOGGER.log(Level.ERROR, "The interface is implemented multiple times + ...");
-        	}
-        	if (implementedInterface.getModules().size() == 0) {
-        		// External interface, cannot be reliably connected to a modules as that cannot be known, but only guessed from the package name.
-        		continue;
-        	}
-        	Module interfaceModule = implementedInterface.getModules().get(0);
-        	for (ComponentImplementation implementation : implementedInterface.getConnectedProvidedComponentImplementations()) {
-        		Module implementingModule = implementation.getModules().get(0);
-        		implementingModule.getConnectedServiceProvisionModules().add(interfaceModule);
-        	}
-        }
-        
         for (Module module : project.getModules()) {
         	if (module.getName().endsWith("-SNAPSHOT")) {
         		module.setName(module.getName().substring(0, module.getName().length() - "-SNAPSHOT".length()));

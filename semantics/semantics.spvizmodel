@@ -7,7 +7,6 @@ SPVizModel Semantics {
 	
 	Module {
 		Dependency connects Module
-		ServiceProvision connects Module
 		contains ComponentInterface
 		contains ComponentImplementation
 	}

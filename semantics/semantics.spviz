@@ -13,7 +13,7 @@ SPViz SemanticsViz {
 	
 	ModuleServices {
 		show Semantics.Module
-		connect Semantics.Module.ServiceProvision
+		connect Semantics.ComponentInterface.Provided via Semantics.Module in Services
 	}
 	
 	Services {
@@ -22,11 +22,12 @@ SPViz SemanticsViz {
 		connect Semantics.ComponentInterface.Provided
 	}
 	
-//	Modules { // FIXME: this causes an issue in the .xcore file as it duplicates the "all...shown variables"
-//		show Semantics.Module
-//		connect Semantics.Module.Dependency
+	Modules {
+		show Semantics.Module
+		connect Semantics.Module.Dependency
 //		connect Semantics.Module.ServiceProvision
-//	}
+		connect Semantics.ComponentInterface.Provided via Semantics.Module in Services
+	}
 	
 	Semantics.Product shows {
 		ModuleDependencies with {
