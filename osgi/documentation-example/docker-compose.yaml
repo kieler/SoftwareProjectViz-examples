@@ -1,0 +1,6 @@
+services:
+  spviz:
+    build:
+      context: .
+    network_mode: host
+    container_name: SPViz-OSGiViz

@@ -14,3 +14,6 @@ This example replicates large parts of the behavior of [osgiviz](https://www.git
 Building the `.spvizmodel` and `.spviz` files in Eclipse will cause it to create/update projects for the osgi model and visualization. Importing the `generate` project next to that will allow you to use it and generate model files from your project.
 
 This configuration can be used for example for most Java projects here in the [KIELER](https://github.com/kieler) software project using OSGi bundling, the [example OSGi project](https://github.com/kieler/osgiviz/tree/master/examples/languagedemo) for OSGiViz, or any other Java project using manifest-first dependency handling and optional OSGi service handling.
+
+# Deploy a diagram service for this OSGi visualization
+The visualization tool generated from this description can be hosted to have online web documentation of the project. See the `documentation-example` folder for further information.

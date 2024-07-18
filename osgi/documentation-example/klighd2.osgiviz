@@ -1,0 +1,1929 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:OSGiViz xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="de.cau.cs.kieler.spviz.osgiviz.model" xmlns:model_1="de.cau.cs.kieler.spviz.osgi.model" childrenInitialized="true" servicesOverviewContext="//@childContexts.0" bundleServicesOverviewContext="//@childContexts.1" bundleDependenciesOverviewContext="//@childContexts.2" productsOverviewContext="//@childContexts.3" featuresOverviewContext="//@childContexts.4" focus="//@childContexts.4">
+  <childContexts xsi:type="model:ServicesOverviewContext" childrenInitialized="true"/>
+  <childContexts xsi:type="model:BundleServicesOverviewContext" childrenInitialized="true" collapsedBundleContexts="//@childContexts.1/@childContexts.0 //@childContexts.1/@childContexts.1 //@childContexts.1/@childContexts.2 //@childContexts.1/@childContexts.3 //@childContexts.1/@childContexts.4 //@childContexts.1/@childContexts.5 //@childContexts.1/@childContexts.6 //@childContexts.1/@childContexts.7 //@childContexts.1/@childContexts.8 //@childContexts.1/@childContexts.9 //@childContexts.1/@childContexts.10 //@childContexts.1/@childContexts.11 //@childContexts.1/@childContexts.12 //@childContexts.1/@childContexts.13 //@childContexts.1/@childContexts.14 //@childContexts.1/@childContexts.15 //@childContexts.1/@childContexts.16 //@childContexts.1/@childContexts.17 //@childContexts.1/@childContexts.18 //@childContexts.1/@childContexts.19 //@childContexts.1/@childContexts.20 //@childContexts.1/@childContexts.21 //@childContexts.1/@childContexts.22 //@childContexts.1/@childContexts.23 //@childContexts.1/@childContexts.24 //@childContexts.1/@childContexts.25 //@childContexts.1/@childContexts.26 //@childContexts.1/@childContexts.27 //@childContexts.1/@childContexts.28 //@childContexts.1/@childContexts.29 //@childContexts.1/@childContexts.30 //@childContexts.1/@childContexts.31 //@childContexts.1/@childContexts.32 //@childContexts.1/@childContexts.33 //@childContexts.1/@childContexts.34 //@childContexts.1/@childContexts.35 //@childContexts.1/@childContexts.36 //@childContexts.1/@childContexts.37 //@childContexts.1/@childContexts.38 //@childContexts.1/@childContexts.39 //@childContexts.1/@childContexts.40 //@childContexts.1/@childContexts.41 //@childContexts.1/@childContexts.42 //@childContexts.1/@childContexts.43 //@childContexts.1/@childContexts.44 //@childContexts.1/@childContexts.45 //@childContexts.1/@childContexts.46 //@childContexts.1/@childContexts.47 //@childContexts.1/@childContexts.48 //@childContexts.1/@childContexts.49 //@childContexts.1/@childContexts.50 //@childContexts.1/@childContexts.51 //@childContexts.1/@childContexts.52 //@childContexts.1/@childContexts.53 //@childContexts.1/@childContexts.54 //@childContexts.1/@childContexts.55 //@childContexts.1/@childContexts.56 //@childContexts.1/@childContexts.57 //@childContexts.1/@childContexts.58 //@childContexts.1/@childContexts.59 //@childContexts.1/@childContexts.60 //@childContexts.1/@childContexts.61 //@childContexts.1/@childContexts.62 //@childContexts.1/@childContexts.63 //@childContexts.1/@childContexts.64 //@childContexts.1/@childContexts.65 //@childContexts.1/@childContexts.66 //@childContexts.1/@childContexts.67 //@childContexts.1/@childContexts.68 //@childContexts.1/@childContexts.69 //@childContexts.1/@childContexts.70 //@childContexts.1/@childContexts.71 //@childContexts.1/@childContexts.72 //@childContexts.1/@childContexts.73 //@childContexts.1/@childContexts.74 //@childContexts.1/@childContexts.75 //@childContexts.1/@childContexts.76 //@childContexts.1/@childContexts.77 //@childContexts.1/@childContexts.78 //@childContexts.1/@childContexts.79 //@childContexts.1/@childContexts.80 //@childContexts.1/@childContexts.81 //@childContexts.1/@childContexts.82 //@childContexts.1/@childContexts.83 //@childContexts.1/@childContexts.84 //@childContexts.1/@childContexts.85 //@childContexts.1/@childContexts.86 //@childContexts.1/@childContexts.87 //@childContexts.1/@childContexts.88 //@childContexts.1/@childContexts.89 //@childContexts.1/@childContexts.90 //@childContexts.1/@childContexts.91 //@childContexts.1/@childContexts.92 //@childContexts.1/@childContexts.93 //@childContexts.1/@childContexts.94 //@childContexts.1/@childContexts.95 //@childContexts.1/@childContexts.96 //@childContexts.1/@childContexts.97 //@childContexts.1/@childContexts.98 //@childContexts.1/@childContexts.99 //@childContexts.1/@childContexts.100 //@childContexts.1/@childContexts.101 //@childContexts.1/@childContexts.102 //@childContexts.1/@childContexts.103 //@childContexts.1/@childContexts.104 //@childContexts.1/@childContexts.105 //@childContexts.1/@childContexts.106 //@childContexts.1/@childContexts.107 //@childContexts.1/@childContexts.108 //@childContexts.1/@childContexts.109 //@childContexts.1/@childContexts.110 //@childContexts.1/@childContexts.111 //@childContexts.1/@childContexts.112 //@childContexts.1/@childContexts.113 //@childContexts.1/@childContexts.114 //@childContexts.1/@childContexts.115 //@childContexts.1/@childContexts.116 //@childContexts.1/@childContexts.117 //@childContexts.1/@childContexts.118 //@childContexts.1/@childContexts.119 //@childContexts.1/@childContexts.120 //@childContexts.1/@childContexts.121 //@childContexts.1/@childContexts.122 //@childContexts.1/@childContexts.123 //@childContexts.1/@childContexts.124 //@childContexts.1/@childContexts.125 //@childContexts.1/@childContexts.126 //@childContexts.1/@childContexts.127 //@childContexts.1/@childContexts.128 //@childContexts.1/@childContexts.129 //@childContexts.1/@childContexts.130 //@childContexts.1/@childContexts.131 //@childContexts.1/@childContexts.132 //@childContexts.1/@childContexts.133 //@childContexts.1/@childContexts.134 //@childContexts.1/@childContexts.135 //@childContexts.1/@childContexts.136 //@childContexts.1/@childContexts.137 //@childContexts.1/@childContexts.138 //@childContexts.1/@childContexts.139 //@childContexts.1/@childContexts.140 //@childContexts.1/@childContexts.141 //@childContexts.1/@childContexts.142 //@childContexts.1/@childContexts.143 //@childContexts.1/@childContexts.144 //@childContexts.1/@childContexts.145 //@childContexts.1/@childContexts.146 //@childContexts.1/@childContexts.147 //@childContexts.1/@childContexts.148 //@childContexts.1/@childContexts.149 //@childContexts.1/@childContexts.150 //@childContexts.1/@childContexts.151 //@childContexts.1/@childContexts.152 //@childContexts.1/@childContexts.153 //@childContexts.1/@childContexts.154 //@childContexts.1/@childContexts.155 //@childContexts.1/@childContexts.156 //@childContexts.1/@childContexts.157 //@childContexts.1/@childContexts.158 //@childContexts.1/@childContexts.159 //@childContexts.1/@childContexts.160 //@childContexts.1/@childContexts.161 //@childContexts.1/@childContexts.162 //@childContexts.1/@childContexts.163 //@childContexts.1/@childContexts.164 //@childContexts.1/@childContexts.165 //@childContexts.1/@childContexts.166 //@childContexts.1/@childContexts.167 //@childContexts.1/@childContexts.168 //@childContexts.1/@childContexts.169 //@childContexts.1/@childContexts.170 //@childContexts.1/@childContexts.171 //@childContexts.1/@childContexts.172 //@childContexts.1/@childContexts.173 //@childContexts.1/@childContexts.174 //@childContexts.1/@childContexts.175 //@childContexts.1/@childContexts.176 //@childContexts.1/@childContexts.177 //@childContexts.1/@childContexts.178 //@childContexts.1/@childContexts.179 //@childContexts.1/@childContexts.180 //@childContexts.1/@childContexts.181 //@childContexts.1/@childContexts.182 //@childContexts.1/@childContexts.183 //@childContexts.1/@childContexts.184 //@childContexts.1/@childContexts.185 //@childContexts.1/@childContexts.186 //@childContexts.1/@childContexts.187 //@childContexts.1/@childContexts.188 //@childContexts.1/@childContexts.189 //@childContexts.1/@childContexts.190 //@childContexts.1/@childContexts.191 //@childContexts.1/@childContexts.192 //@childContexts.1/@childContexts.193 //@childContexts.1/@childContexts.194 //@childContexts.1/@childContexts.195 //@childContexts.1/@childContexts.196 //@childContexts.1/@childContexts.197 //@childContexts.1/@childContexts.198 //@childContexts.1/@childContexts.199 //@childContexts.1/@childContexts.200 //@childContexts.1/@childContexts.201 //@childContexts.1/@childContexts.202 //@childContexts.1/@childContexts.203 //@childContexts.1/@childContexts.204 //@childContexts.1/@childContexts.205 //@childContexts.1/@childContexts.206 //@childContexts.1/@childContexts.207 //@childContexts.1/@childContexts.208 //@childContexts.1/@childContexts.209 //@childContexts.1/@childContexts.210 //@childContexts.1/@childContexts.211 //@childContexts.1/@childContexts.212 //@childContexts.1/@childContexts.213 //@childContexts.1/@childContexts.214 //@childContexts.1/@childContexts.215 //@childContexts.1/@childContexts.216">
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.test"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.junit"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.runtime"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.core.service"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.hamcrest.library"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.hamcrest.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.incremental"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.setup"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.test"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.xbase.lib"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.layered"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.krendering.extensions"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.emf"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.transaction"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.workspace"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.expressions"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.resources"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.edit"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.jface.text"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.forms"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.views"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.kgraph"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.databinding"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.databinding.beans"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.jface.databinding"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.databinding.property"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.krendering"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecore"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.graph"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_com.google.guava"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_com.google.inject"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.standalone"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.freehep"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtend.lib"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtend.lib.macro"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.contrib_x"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.view"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.batik"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.xtext.generator"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.commons.logging"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.codegen.ecore"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.mwe.utils"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.mwe_.launch"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.util"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.antlr.runtime"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.common"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.xbase"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.wizard"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.log_j"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.filesystem"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.navigator"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.jdt.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.jdt.launching"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.jdt.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.pde.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.ui.shared"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.jface"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.swt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.workbench"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_jakarta.inject.jakarta.inject-api"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.editors"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.compare"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.builder"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.core.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.ui.codetemplates.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.draw_d"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.draw_d"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.xmi"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.common"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.force"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.graphviz.dot"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.graphviz.layouter"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.mrtree"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.radial"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_edu.umd.cs.piccolo"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.kgx"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.offscreen.application"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_com.ibm.icu"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.kiml.ogdf"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_javax.annotation"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_javax.inject"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_javax.xml"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_lpg.runtime.java"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_net.ogdf.bin"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_net.ogdf.ogml"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.bridge"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.css"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.dom"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.dom.svg"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.ext.awt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.parser"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.pdf"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.svggen"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.transcoder"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.util"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.util.gui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.xml"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ant.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.compare.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.commands"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.contenttype"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.databinding.observable"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.filebuffers"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.filesystem.win__.x__"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.jobs"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.resources.win__.x__"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.runtime.compatibility.registry"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.variables"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.core.commands"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.core.contexts"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.core.di"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.core.di.extensions"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.core.services"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.bindings"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.css.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.css.swt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.css.swt.theme"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.di"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.model.workbench"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.services"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.widgets"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench.addons.swt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench.renderers.swt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench.swt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench_"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.cdo.ecore.retrofit"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.common.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.change"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.edit"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.editor"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecoretools.diagram"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecoretools.diagram.ui.outline"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.edit.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.validation"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.app"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.bidi"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.common"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.ds"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.event"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.engine"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.metadata"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.metadata.repository"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.repository"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.preferences"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.registry"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.security"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.security.win__.x__"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.util"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gef"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.action"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.action.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.printing"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.printing.win__"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.services"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.services.action"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.services.properties"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.actions"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.printing"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.printing.render"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.properties"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.providers"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.providers.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.render"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.resources.editor"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.resources.editor.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.draw_d.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.draw_d.ui.render"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.draw_d.ui.render.awt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.clipboard.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.commands.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.type.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.ui.properties"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.gef.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.notation"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.help"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ltk.core.refactoring"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ltk.ui.refactoring"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ocl"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ocl.common"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ocl.ecore"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.osgi"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.osgi.services"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.swt.win__.win__.x__"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.team.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.team.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.text"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.console"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.navigator.resources"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.views.properties.tabbed"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.win__"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.workbench.texteditor"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.w_c.css.sac"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.w_c.dom.events"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.w_c.dom.smil"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.w_c.dom.svg"/>
+    </childContexts>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.test"/>
+    <bundles href="KLighD.osgi#Bundle_org.junit"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.runtime"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.core.service"/>
+    <bundles href="KLighD.osgi#Bundle_org.hamcrest.library"/>
+    <bundles href="KLighD.osgi#Bundle_org.hamcrest.core"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.incremental"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.setup"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.test"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.xbase.lib"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.layered"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.krendering.extensions"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.emf"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.transaction"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.workspace"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.expressions"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.resources"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.edit"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.jface.text"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.forms"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.ide"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.views"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.kgraph"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.databinding"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.databinding.beans"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.jface.databinding"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.databinding.property"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.krendering"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecore"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.graph"/>
+    <bundles href="KLighD.osgi#Bundle_com.google.guava"/>
+    <bundles href="KLighD.osgi#Bundle_com.google.inject"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.standalone"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.freehep"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text.ide"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.ide"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtend.lib"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtend.lib.macro"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.contrib_x"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.view"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.ui"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ide"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.batik"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.xtext.generator"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.commons.logging"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.codegen.ecore"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.mwe.utils"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.mwe_.launch"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.util"/>
+    <bundles href="KLighD.osgi#Bundle_org.antlr.runtime"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.common"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.xbase"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.wizard"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.log_j"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.filesystem"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.navigator"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.jdt.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.jdt.launching"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.jdt.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.pde.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.ui.shared"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.jface"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.swt"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.workbench"/>
+    <bundles href="KLighD.osgi#Bundle_jakarta.inject.jakarta.inject-api"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.editors"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.compare"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.builder"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.core.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.ui.codetemplates.ui"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.draw_d"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.draw_d"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.xmi"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.common"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.force"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.graphviz.dot"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.graphviz.layouter"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.mrtree"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.radial"/>
+    <bundles href="KLighD.osgi#Bundle_edu.umd.cs.piccolo"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.kgx"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.offscreen.application"/>
+    <bundles href="KLighD.osgi#Bundle_com.ibm.icu"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.kiml.ogdf"/>
+    <bundles href="KLighD.osgi#Bundle_javax.annotation"/>
+    <bundles href="KLighD.osgi#Bundle_javax.inject"/>
+    <bundles href="KLighD.osgi#Bundle_javax.xml"/>
+    <bundles href="KLighD.osgi#Bundle_lpg.runtime.java"/>
+    <bundles href="KLighD.osgi#Bundle_net.ogdf.bin"/>
+    <bundles href="KLighD.osgi#Bundle_net.ogdf.ogml"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.bridge"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.css"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.dom"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.dom.svg"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.ext.awt"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.parser"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.pdf"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.svggen"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.transcoder"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.util"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.util.gui"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.xml"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ant.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.compare.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.commands"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.contenttype"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.databinding.observable"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.filebuffers"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.filesystem.win__.x__"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.jobs"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.resources.win__.x__"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.runtime.compatibility.registry"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.variables"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.core.commands"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.core.contexts"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.core.di"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.core.di.extensions"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.core.services"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.bindings"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.css.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.css.swt"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.css.swt.theme"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.di"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.model.workbench"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.services"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.widgets"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench.addons.swt"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench.renderers.swt"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench.swt"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench_"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.cdo.ecore.retrofit"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.common.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.change"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.edit"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.editor"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecoretools.diagram"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecoretools.diagram.ui.outline"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.edit.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.validation"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.app"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.bidi"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.common"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.ds"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.event"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.engine"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.metadata"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.metadata.repository"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.repository"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.preferences"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.registry"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.security"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.security.win__.x__"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.util"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gef"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.action"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.action.ide"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.printing"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.printing.win__"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.services"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.services.action"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.services.properties"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.actions"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.printing"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.printing.render"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.properties"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.providers"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.providers.ide"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.render"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.resources.editor"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.resources.editor.ide"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.draw_d.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.draw_d.ui.render"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.draw_d.ui.render.awt"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.clipboard.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.commands.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.type.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.ui.properties"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.gef.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.notation"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.help"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ltk.core.refactoring"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ltk.ui.refactoring"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ocl"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ocl.common"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ocl.ecore"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.osgi"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.osgi.services"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.swt.win__.win__.x__"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.team.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.team.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.text"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.console"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.navigator.resources"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.views.properties.tabbed"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.win__"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.workbench.texteditor"/>
+    <bundles href="KLighD.osgi#Bundle_org.w_c.css.sac"/>
+    <bundles href="KLighD.osgi#Bundle_org.w_c.dom.events"/>
+    <bundles href="KLighD.osgi#Bundle_org.w_c.dom.smil"/>
+    <bundles href="KLighD.osgi#Bundle_org.w_c.dom.svg"/>
+  </childContexts>
+  <childContexts xsi:type="model:BundleDependenciesOverviewContext" childrenInitialized="true" collapsedBundleContexts="//@childContexts.2/@childContexts.0 //@childContexts.2/@childContexts.1 //@childContexts.2/@childContexts.2 //@childContexts.2/@childContexts.3 //@childContexts.2/@childContexts.4 //@childContexts.2/@childContexts.5 //@childContexts.2/@childContexts.6 //@childContexts.2/@childContexts.7 //@childContexts.2/@childContexts.8 //@childContexts.2/@childContexts.9 //@childContexts.2/@childContexts.10 //@childContexts.2/@childContexts.11 //@childContexts.2/@childContexts.12 //@childContexts.2/@childContexts.13 //@childContexts.2/@childContexts.14 //@childContexts.2/@childContexts.15 //@childContexts.2/@childContexts.16 //@childContexts.2/@childContexts.17 //@childContexts.2/@childContexts.18 //@childContexts.2/@childContexts.19 //@childContexts.2/@childContexts.20 //@childContexts.2/@childContexts.21 //@childContexts.2/@childContexts.22 //@childContexts.2/@childContexts.23 //@childContexts.2/@childContexts.24 //@childContexts.2/@childContexts.25 //@childContexts.2/@childContexts.26 //@childContexts.2/@childContexts.27 //@childContexts.2/@childContexts.28 //@childContexts.2/@childContexts.29 //@childContexts.2/@childContexts.30 //@childContexts.2/@childContexts.31 //@childContexts.2/@childContexts.32 //@childContexts.2/@childContexts.33 //@childContexts.2/@childContexts.34 //@childContexts.2/@childContexts.35 //@childContexts.2/@childContexts.36 //@childContexts.2/@childContexts.37 //@childContexts.2/@childContexts.38 //@childContexts.2/@childContexts.39 //@childContexts.2/@childContexts.40 //@childContexts.2/@childContexts.41 //@childContexts.2/@childContexts.42 //@childContexts.2/@childContexts.43 //@childContexts.2/@childContexts.44 //@childContexts.2/@childContexts.45 //@childContexts.2/@childContexts.46 //@childContexts.2/@childContexts.47 //@childContexts.2/@childContexts.48 //@childContexts.2/@childContexts.49 //@childContexts.2/@childContexts.50 //@childContexts.2/@childContexts.51 //@childContexts.2/@childContexts.52 //@childContexts.2/@childContexts.53 //@childContexts.2/@childContexts.54 //@childContexts.2/@childContexts.55 //@childContexts.2/@childContexts.56 //@childContexts.2/@childContexts.57 //@childContexts.2/@childContexts.58 //@childContexts.2/@childContexts.59 //@childContexts.2/@childContexts.60 //@childContexts.2/@childContexts.61 //@childContexts.2/@childContexts.62 //@childContexts.2/@childContexts.63 //@childContexts.2/@childContexts.64 //@childContexts.2/@childContexts.65 //@childContexts.2/@childContexts.66 //@childContexts.2/@childContexts.67 //@childContexts.2/@childContexts.68 //@childContexts.2/@childContexts.69 //@childContexts.2/@childContexts.70 //@childContexts.2/@childContexts.71 //@childContexts.2/@childContexts.72 //@childContexts.2/@childContexts.73 //@childContexts.2/@childContexts.74 //@childContexts.2/@childContexts.75 //@childContexts.2/@childContexts.76 //@childContexts.2/@childContexts.77 //@childContexts.2/@childContexts.78 //@childContexts.2/@childContexts.79 //@childContexts.2/@childContexts.80 //@childContexts.2/@childContexts.81 //@childContexts.2/@childContexts.82 //@childContexts.2/@childContexts.83 //@childContexts.2/@childContexts.84 //@childContexts.2/@childContexts.85 //@childContexts.2/@childContexts.86 //@childContexts.2/@childContexts.87 //@childContexts.2/@childContexts.88 //@childContexts.2/@childContexts.89 //@childContexts.2/@childContexts.90 //@childContexts.2/@childContexts.91 //@childContexts.2/@childContexts.92 //@childContexts.2/@childContexts.93 //@childContexts.2/@childContexts.94 //@childContexts.2/@childContexts.95 //@childContexts.2/@childContexts.96 //@childContexts.2/@childContexts.97 //@childContexts.2/@childContexts.98 //@childContexts.2/@childContexts.99 //@childContexts.2/@childContexts.100 //@childContexts.2/@childContexts.101 //@childContexts.2/@childContexts.102 //@childContexts.2/@childContexts.103 //@childContexts.2/@childContexts.104 //@childContexts.2/@childContexts.105 //@childContexts.2/@childContexts.106 //@childContexts.2/@childContexts.107 //@childContexts.2/@childContexts.108 //@childContexts.2/@childContexts.109 //@childContexts.2/@childContexts.110 //@childContexts.2/@childContexts.111 //@childContexts.2/@childContexts.112 //@childContexts.2/@childContexts.113 //@childContexts.2/@childContexts.114 //@childContexts.2/@childContexts.115 //@childContexts.2/@childContexts.116 //@childContexts.2/@childContexts.117 //@childContexts.2/@childContexts.118 //@childContexts.2/@childContexts.119 //@childContexts.2/@childContexts.120 //@childContexts.2/@childContexts.121 //@childContexts.2/@childContexts.122 //@childContexts.2/@childContexts.123 //@childContexts.2/@childContexts.124 //@childContexts.2/@childContexts.125 //@childContexts.2/@childContexts.126 //@childContexts.2/@childContexts.127 //@childContexts.2/@childContexts.128 //@childContexts.2/@childContexts.129 //@childContexts.2/@childContexts.130 //@childContexts.2/@childContexts.131 //@childContexts.2/@childContexts.132 //@childContexts.2/@childContexts.133 //@childContexts.2/@childContexts.134 //@childContexts.2/@childContexts.135 //@childContexts.2/@childContexts.136 //@childContexts.2/@childContexts.137 //@childContexts.2/@childContexts.138 //@childContexts.2/@childContexts.139 //@childContexts.2/@childContexts.140 //@childContexts.2/@childContexts.141 //@childContexts.2/@childContexts.142 //@childContexts.2/@childContexts.143 //@childContexts.2/@childContexts.144 //@childContexts.2/@childContexts.145 //@childContexts.2/@childContexts.146 //@childContexts.2/@childContexts.147 //@childContexts.2/@childContexts.148 //@childContexts.2/@childContexts.149 //@childContexts.2/@childContexts.150 //@childContexts.2/@childContexts.151 //@childContexts.2/@childContexts.152 //@childContexts.2/@childContexts.153 //@childContexts.2/@childContexts.154 //@childContexts.2/@childContexts.155 //@childContexts.2/@childContexts.156 //@childContexts.2/@childContexts.157 //@childContexts.2/@childContexts.158 //@childContexts.2/@childContexts.159 //@childContexts.2/@childContexts.160 //@childContexts.2/@childContexts.161 //@childContexts.2/@childContexts.162 //@childContexts.2/@childContexts.163 //@childContexts.2/@childContexts.164 //@childContexts.2/@childContexts.165 //@childContexts.2/@childContexts.166 //@childContexts.2/@childContexts.167 //@childContexts.2/@childContexts.168 //@childContexts.2/@childContexts.169 //@childContexts.2/@childContexts.170 //@childContexts.2/@childContexts.171 //@childContexts.2/@childContexts.172 //@childContexts.2/@childContexts.173 //@childContexts.2/@childContexts.174 //@childContexts.2/@childContexts.175 //@childContexts.2/@childContexts.176 //@childContexts.2/@childContexts.177 //@childContexts.2/@childContexts.178 //@childContexts.2/@childContexts.179 //@childContexts.2/@childContexts.180 //@childContexts.2/@childContexts.181 //@childContexts.2/@childContexts.182 //@childContexts.2/@childContexts.183 //@childContexts.2/@childContexts.184 //@childContexts.2/@childContexts.185 //@childContexts.2/@childContexts.186 //@childContexts.2/@childContexts.187 //@childContexts.2/@childContexts.188 //@childContexts.2/@childContexts.189 //@childContexts.2/@childContexts.190 //@childContexts.2/@childContexts.191 //@childContexts.2/@childContexts.192 //@childContexts.2/@childContexts.193 //@childContexts.2/@childContexts.194 //@childContexts.2/@childContexts.195 //@childContexts.2/@childContexts.196 //@childContexts.2/@childContexts.197 //@childContexts.2/@childContexts.198 //@childContexts.2/@childContexts.199 //@childContexts.2/@childContexts.200 //@childContexts.2/@childContexts.201 //@childContexts.2/@childContexts.202 //@childContexts.2/@childContexts.203 //@childContexts.2/@childContexts.204 //@childContexts.2/@childContexts.205 //@childContexts.2/@childContexts.206 //@childContexts.2/@childContexts.207 //@childContexts.2/@childContexts.208 //@childContexts.2/@childContexts.209 //@childContexts.2/@childContexts.210 //@childContexts.2/@childContexts.211 //@childContexts.2/@childContexts.212 //@childContexts.2/@childContexts.213 //@childContexts.2/@childContexts.214 //@childContexts.2/@childContexts.215 //@childContexts.2/@childContexts.216">
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.test"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.junit"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.runtime"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.core.service"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.hamcrest.library"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.hamcrest.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.incremental"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.setup"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.test"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.xbase.lib"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.layered"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.krendering.extensions"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.emf"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.transaction"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.workspace"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.expressions"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.resources"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.edit"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.jface.text"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.forms"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.views"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.kgraph"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.databinding"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.databinding.beans"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.jface.databinding"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.databinding.property"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.krendering"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecore"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.graph"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_com.google.guava"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_com.google.inject"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.standalone"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.freehep"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtend.lib"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtend.lib.macro"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.contrib_x"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.view"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.batik"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.xtext.generator"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.commons.logging"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.codegen.ecore"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.mwe.utils"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.mwe_.launch"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.util"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.antlr.runtime"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.common"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.xbase"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.wizard"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.log_j"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.filesystem"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.navigator"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.jdt.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.jdt.launching"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.jdt.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.pde.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.ui.shared"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.jface"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.swt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.workbench"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_jakarta.inject.jakarta.inject-api"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.editors"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.compare"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.builder"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.core.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.xtext.ui.codetemplates.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.draw_d"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.draw_d"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.xmi"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.common"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.force"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.graphviz.dot"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.graphviz.layouter"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.mrtree"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.elk.alg.radial"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_edu.umd.cs.piccolo"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.kgx"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.offscreen.application"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_com.ibm.icu"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.kiml.ogdf"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_javax.annotation"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_javax.inject"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_javax.xml"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_lpg.runtime.java"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_net.ogdf.bin"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_net.ogdf.ogml"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.bridge"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.css"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.dom"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.dom.svg"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.ext.awt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.parser"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.pdf"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.svggen"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.transcoder"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.util"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.util.gui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.apache.batik.xml"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ant.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.compare.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.commands"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.contenttype"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.databinding.observable"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.filebuffers"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.filesystem.win__.x__"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.jobs"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.resources.win__.x__"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.runtime.compatibility.registry"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.core.variables"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.core.commands"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.core.contexts"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.core.di"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.core.di.extensions"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.core.services"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.bindings"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.css.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.css.swt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.css.swt.theme"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.di"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.model.workbench"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.services"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.widgets"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench.addons.swt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench.renderers.swt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench.swt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench_"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.cdo.ecore.retrofit"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.common.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.change"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.edit"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.editor"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecoretools.diagram"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.ecoretools.diagram.ui.outline"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.edit.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.emf.validation"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.app"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.bidi"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.common"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.ds"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.event"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.engine"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.metadata"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.metadata.repository"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.repository"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.preferences"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.registry"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.security"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.security.win__.x__"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.equinox.util"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gef"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.action"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.action.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.printing"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.printing.win__"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.services"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.services.action"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.services.properties"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.actions"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.printing"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.printing.render"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.properties"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.providers"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.providers.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.render"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.resources.editor"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.resources.editor.ide"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.draw_d.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.draw_d.ui.render"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.draw_d.ui.render.awt"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.clipboard.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.commands.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.type.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.ui.properties"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.gef.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.notation"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.help"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ltk.core.refactoring"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ltk.ui.refactoring"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ocl"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ocl.common"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ocl.ecore"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.osgi"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.osgi.services"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.swt.win__.win__.x__"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.team.core"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.team.ui"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.text"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.console"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.navigator.resources"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.views.properties.tabbed"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.win__"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.eclipse.ui.workbench.texteditor"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.w_c.css.sac"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.w_c.dom.events"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.w_c.dom.smil"/>
+    </childContexts>
+    <childContexts xsi:type="model:BundleContext">
+      <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_org.w_c.dom.svg"/>
+    </childContexts>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.test"/>
+    <bundles href="KLighD.osgi#Bundle_org.junit"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.runtime"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.core.service"/>
+    <bundles href="KLighD.osgi#Bundle_org.hamcrest.library"/>
+    <bundles href="KLighD.osgi#Bundle_org.hamcrest.core"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.incremental"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.setup"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.test"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.xbase.lib"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.layered"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.krendering.extensions"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.emf"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.transaction"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.workspace"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.expressions"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.resources"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.edit"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.jface.text"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.forms"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.ide"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.views"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.kgraph"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.databinding"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.databinding.beans"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.jface.databinding"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.databinding.property"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.krendering"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecore"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.graph"/>
+    <bundles href="KLighD.osgi#Bundle_com.google.guava"/>
+    <bundles href="KLighD.osgi#Bundle_com.google.inject"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.standalone"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.freehep"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text.ide"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.ide"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtend.lib"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtend.lib.macro"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.contrib_x"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.view"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.ui"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ide"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.batik"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.xtext.generator"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.commons.logging"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.codegen.ecore"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.mwe.utils"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.mwe_.launch"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.util"/>
+    <bundles href="KLighD.osgi#Bundle_org.antlr.runtime"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.common"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.xbase"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.wizard"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.log_j"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.filesystem"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.navigator"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.jdt.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.jdt.launching"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.jdt.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.pde.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.ui.shared"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.jface"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.swt"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.workbench"/>
+    <bundles href="KLighD.osgi#Bundle_jakarta.inject.jakarta.inject-api"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.editors"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.compare"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.builder"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.core.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.xtext.ui.codetemplates.ui"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.draw_d"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.draw_d"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.xmi"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.common"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.force"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.graphviz.dot"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.graphviz.layouter"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.mrtree"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.elk.alg.radial"/>
+    <bundles href="KLighD.osgi#Bundle_edu.umd.cs.piccolo"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.kgx"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.offscreen.application"/>
+    <bundles href="KLighD.osgi#Bundle_com.ibm.icu"/>
+    <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.kiml.ogdf"/>
+    <bundles href="KLighD.osgi#Bundle_javax.annotation"/>
+    <bundles href="KLighD.osgi#Bundle_javax.inject"/>
+    <bundles href="KLighD.osgi#Bundle_javax.xml"/>
+    <bundles href="KLighD.osgi#Bundle_lpg.runtime.java"/>
+    <bundles href="KLighD.osgi#Bundle_net.ogdf.bin"/>
+    <bundles href="KLighD.osgi#Bundle_net.ogdf.ogml"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.bridge"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.css"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.dom"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.dom.svg"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.ext.awt"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.parser"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.pdf"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.svggen"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.transcoder"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.util"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.util.gui"/>
+    <bundles href="KLighD.osgi#Bundle_org.apache.batik.xml"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ant.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.compare.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.commands"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.contenttype"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.databinding.observable"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.filebuffers"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.filesystem.win__.x__"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.jobs"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.resources.win__.x__"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.runtime.compatibility.registry"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.core.variables"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.core.commands"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.core.contexts"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.core.di"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.core.di.extensions"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.core.services"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.bindings"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.css.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.css.swt"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.css.swt.theme"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.di"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.model.workbench"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.services"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.widgets"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench.addons.swt"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench.renderers.swt"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench.swt"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.e_.ui.workbench_"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.cdo.ecore.retrofit"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.common.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.change"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.edit"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecore.editor"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecoretools.diagram"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.ecoretools.diagram.ui.outline"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.edit.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.emf.validation"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.app"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.bidi"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.common"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.ds"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.event"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.engine"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.metadata"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.metadata.repository"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.p_.repository"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.preferences"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.registry"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.security"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.security.win__.x__"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.equinox.util"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gef"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.action"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.action.ide"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.printing"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.printing.win__"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.services"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.services.action"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.common.ui.services.properties"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.actions"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.printing"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.printing.render"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.properties"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.providers"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.providers.ide"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.render"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.resources.editor"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.diagram.ui.resources.editor.ide"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.draw_d.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.draw_d.ui.render"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.draw_d.ui.render.awt"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.clipboard.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.commands.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.type.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.emf.ui.properties"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.gef.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.gmf.runtime.notation"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.help"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ltk.core.refactoring"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ltk.ui.refactoring"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ocl"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ocl.common"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ocl.ecore"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.osgi"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.osgi.services"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.swt.win__.win__.x__"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.team.core"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.team.ui"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.text"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.console"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.navigator.resources"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.views.properties.tabbed"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.win__"/>
+    <bundles href="KLighD.osgi#Bundle_org.eclipse.ui.workbench.texteditor"/>
+    <bundles href="KLighD.osgi#Bundle_org.w_c.css.sac"/>
+    <bundles href="KLighD.osgi#Bundle_org.w_c.dom.events"/>
+    <bundles href="KLighD.osgi#Bundle_org.w_c.dom.smil"/>
+    <bundles href="KLighD.osgi#Bundle_org.w_c.dom.svg"/>
+  </childContexts>
+  <childContexts xsi:type="model:ProductsOverviewContext" childrenInitialized="true" collapsedProductContexts="//@childContexts.3/@childContexts.0">
+    <childContexts xsi:type="model:ProductContext">
+      <modelElement xsi:type="model_1:Product" href="KLighD.osgi#Product_"/>
+    </childContexts>
+    <products href="KLighD.osgi#Product_"/>
+  </childContexts>
+  <childContexts xsi:type="model:FeaturesOverviewContext" childrenInitialized="true" expanded="true" showCollapsedElements="false" collapsedFeatureContexts="//@childContexts.4/@childContexts.0 //@childContexts.4/@childContexts.1 //@childContexts.4/@childContexts.5 //@childContexts.4/@childContexts.6" detailedFeatureContexts="//@childContexts.4/@childContexts.3 //@childContexts.4/@childContexts.2 //@childContexts.4/@childContexts.4">
+    <childContexts xsi:type="model:FeatureContext" childrenInitialized="true" bundleDependenciesOverviewContext="//@childContexts.4/@childContexts.0/@childContexts.0">
+      <childContexts xsi:type="model:BundleDependenciesOverviewContext" childrenInitialized="true" collapsedBundleContexts="//@childContexts.4/@childContexts.0/@childContexts.0/@childContexts.0 //@childContexts.4/@childContexts.0/@childContexts.0/@childContexts.1 //@childContexts.4/@childContexts.0/@childContexts.0/@childContexts.2 //@childContexts.4/@childContexts.0/@childContexts.0/@childContexts.3 //@childContexts.4/@childContexts.0/@childContexts.0/@childContexts.4 //@childContexts.4/@childContexts.0/@childContexts.0/@childContexts.5">
+        <childContexts xsi:type="model:BundleContext">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.contrib_x"/>
+        </childContexts>
+        <childContexts xsi:type="model:BundleContext">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.wizard"/>
+        </childContexts>
+        <childContexts xsi:type="model:BundleContext">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.emf"/>
+        </childContexts>
+        <childContexts xsi:type="model:BundleContext">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text"/>
+        </childContexts>
+        <childContexts xsi:type="model:BundleContext">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text.ide"/>
+        </childContexts>
+        <childContexts xsi:type="model:BundleContext">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text.ui"/>
+        </childContexts>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.contrib_x"/>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.wizard"/>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.emf"/>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text"/>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text.ide"/>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.kgraph.text.ui"/>
+      </childContexts>
+      <modelElement xsi:type="model_1:Feature" href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.sdk.feature"/>
+    </childContexts>
+    <childContexts xsi:type="model:FeatureContext" childrenInitialized="true" bundleDependenciesOverviewContext="//@childContexts.4/@childContexts.1/@childContexts.0">
+      <childContexts xsi:type="model:BundleDependenciesOverviewContext" childrenInitialized="true" collapsedBundleContexts="//@childContexts.4/@childContexts.1/@childContexts.0/@childContexts.0">
+        <childContexts xsi:type="model:BundleContext">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.freehep"/>
+        </childContexts>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.freehep"/>
+      </childContexts>
+      <modelElement xsi:type="model_1:Feature" href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.freehep.feature"/>
+    </childContexts>
+    <childContexts xsi:type="model:FeatureContext" childrenInitialized="true" bundleDependenciesOverviewContext="//@childContexts.4/@childContexts.2/@childContexts.0">
+      <childContexts xsi:type="model:BundleDependenciesOverviewContext" childrenInitialized="true" expanded="true" showCollapsedElements="false" collapsedBundleContexts="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.7" detailedBundleContexts="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.3 //@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.6 //@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.4 //@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.0 //@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.1 //@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.5 //@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.2">
+        <childContexts xsi:type="model:BundleContext" childrenInitialized="true" allConnectedBundleConnectsBundleNamedDependencyShown="true">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd"/>
+        </childContexts>
+        <childContexts xsi:type="model:BundleContext" childrenInitialized="true" allConnectedBundleConnectsBundleNamedDependencyShown="true" allConnectingBundleConnectsBundleNamedDependencyShown="true">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo"/>
+        </childContexts>
+        <childContexts xsi:type="model:BundleContext" childrenInitialized="true" allConnectingBundleConnectsBundleNamedDependencyShown="true">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_edu.umd.cs.piccolo"/>
+        </childContexts>
+        <childContexts xsi:type="model:BundleContext" childrenInitialized="true" allConnectedBundleConnectsBundleNamedDependencyShown="true">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui"/>
+        </childContexts>
+        <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.kgraph"/>
+        </childContexts>
+        <childContexts xsi:type="model:BundleContext" childrenInitialized="true" allConnectedBundleConnectsBundleNamedDependencyShown="true" allConnectingBundleConnectsBundleNamedDependencyShown="true">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.krendering"/>
+        </childContexts>
+        <childContexts xsi:type="model:BundleContext" childrenInitialized="true" allConnectedBundleConnectsBundleNamedDependencyShown="true">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.krendering.extensions"/>
+        </childContexts>
+        <childContexts xsi:type="model:BundleContext">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.incremental"/>
+        </childContexts>
+        <bundleConnectsBundleNamedDependencyEdges key="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.3" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.0"/>
+        <bundleConnectsBundleNamedDependencyEdges key="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.3" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.4"/>
+        <bundleConnectsBundleNamedDependencyEdges key="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.3" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.1"/>
+        <bundleConnectsBundleNamedDependencyEdges key="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.6" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.5"/>
+        <bundleConnectsBundleNamedDependencyEdges key="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.6" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.4"/>
+        <bundleConnectsBundleNamedDependencyEdges key="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.4"/>
+        <bundleConnectsBundleNamedDependencyEdges key="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.5"/>
+        <bundleConnectsBundleNamedDependencyEdges key="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.1" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.0"/>
+        <bundleConnectsBundleNamedDependencyEdges key="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.1" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.4"/>
+        <bundleConnectsBundleNamedDependencyEdges key="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.1" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.2"/>
+        <bundleConnectsBundleNamedDependencyEdges key="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.5" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.4"/>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd"/>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo"/>
+        <bundles href="KLighD.osgi#Bundle_edu.umd.cs.piccolo"/>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui"/>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.kgraph"/>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.krendering"/>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.krendering.extensions"/>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.incremental"/>
+      </childContexts>
+      <modelElement xsi:type="model_1:Feature" href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.feature"/>
+    </childContexts>
+    <childContexts xsi:type="model:FeatureContext" childrenInitialized="true" bundleDependenciesOverviewContext="//@childContexts.4/@childContexts.3/@childContexts.0">
+      <childContexts xsi:type="model:BundleDependenciesOverviewContext" childrenInitialized="true" expanded="true" detailedBundleContexts="//@childContexts.4/@childContexts.3/@childContexts.0/@childContexts.0">
+        <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.view"/>
+        </childContexts>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ui.view"/>
+      </childContexts>
+      <modelElement xsi:type="model_1:Feature" href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.view.feature"/>
+    </childContexts>
+    <childContexts xsi:type="model:FeatureContext" childrenInitialized="true" bundleDependenciesOverviewContext="//@childContexts.4/@childContexts.4/@childContexts.0">
+      <childContexts xsi:type="model:BundleDependenciesOverviewContext" childrenInitialized="true" expanded="true" detailedBundleContexts="//@childContexts.4/@childContexts.4/@childContexts.0/@childContexts.0">
+        <childContexts xsi:type="model:BundleContext" childrenInitialized="true">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ide"/>
+        </childContexts>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.ide"/>
+      </childContexts>
+      <modelElement xsi:type="model_1:Feature" href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.ide.feature"/>
+    </childContexts>
+    <childContexts xsi:type="model:FeatureContext" childrenInitialized="true" bundleDependenciesOverviewContext="//@childContexts.4/@childContexts.5/@childContexts.0">
+      <childContexts xsi:type="model:BundleDependenciesOverviewContext" childrenInitialized="true" collapsedBundleContexts="//@childContexts.4/@childContexts.5/@childContexts.0/@childContexts.0">
+        <childContexts xsi:type="model:BundleContext">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.draw_d"/>
+        </childContexts>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.draw_d"/>
+      </childContexts>
+      <modelElement xsi:type="model_1:Feature" href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.draw_d.feature"/>
+    </childContexts>
+    <childContexts xsi:type="model:FeatureContext" childrenInitialized="true" bundleDependenciesOverviewContext="//@childContexts.4/@childContexts.6/@childContexts.0">
+      <childContexts xsi:type="model:BundleDependenciesOverviewContext" childrenInitialized="true" collapsedBundleContexts="//@childContexts.4/@childContexts.6/@childContexts.0/@childContexts.0">
+        <childContexts xsi:type="model:BundleContext">
+          <modelElement xsi:type="model_1:Bundle" href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.batik"/>
+        </childContexts>
+        <bundles href="KLighD.osgi#Bundle_de.cau.cs.kieler.klighd.piccolo.batik"/>
+      </childContexts>
+      <modelElement xsi:type="model_1:Feature" href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.batik.feature"/>
+    </childContexts>
+    <possibleFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.0" value="//@childContexts.4/@childContexts.2"/>
+    <possibleFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.3" value="//@childContexts.4/@childContexts.2"/>
+    <possibleFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.3" value="//@childContexts.4/@childContexts.4"/>
+    <possibleFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.4" value="//@childContexts.4/@childContexts.2"/>
+    <featureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.3" value="//@childContexts.4/@childContexts.2"/>
+    <featureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.3" value="//@childContexts.4/@childContexts.4"/>
+    <featureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.4" value="//@childContexts.4/@childContexts.2"/>
+    <possibleBundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.0/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.3"/>
+    <possibleBundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.0/@childContexts.0/@childContexts.3" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.4"/>
+    <possibleBundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.0/@childContexts.0/@childContexts.3" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.5"/>
+    <possibleBundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.0/@childContexts.0/@childContexts.3" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.0"/>
+    <possibleBundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.0/@childContexts.0/@childContexts.5" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.4"/>
+    <possibleBundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.3/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.3"/>
+    <possibleBundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.3/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.6"/>
+    <possibleBundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.3/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.4"/>
+    <possibleBundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.3/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.4/@childContexts.0/@childContexts.0"/>
+    <possibleBundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.4/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.0"/>
+    <possibleBundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.4/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.4"/>
+    <possibleBundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.4/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.6"/>
+    <bundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.3/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.3"/>
+    <bundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.3/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.6"/>
+    <bundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.3/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.4"/>
+    <bundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.3/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.4/@childContexts.0/@childContexts.0"/>
+    <bundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.4/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.0"/>
+    <bundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.4/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.4"/>
+    <bundleAndBundleInFeatureCategoryConnectsFeatureViaBundleDotDependencyEdges key="//@childContexts.4/@childContexts.4/@childContexts.0/@childContexts.0" value="//@childContexts.4/@childContexts.2/@childContexts.0/@childContexts.6"/>
+    <features href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.sdk.feature"/>
+    <features href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.freehep.feature"/>
+    <features href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.feature"/>
+    <features href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.view.feature"/>
+    <features href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.ide.feature"/>
+    <features href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.draw_d.feature"/>
+    <features href="KLighD.osgi#Feature_de.cau.cs.kieler.klighd.batik.feature"/>
+  </childContexts>
+  <modelElement xsi:type="model_1:OSGiProject" href="KLighD.osgi#/"/>
+  <synthesisOptions id="CHECK-1201713369" value="true"/>
+  <synthesisOptions id="CATEGORY2104342424" value="true"/>
+  <synthesisOptions id="CATEGORY519100843" value="true"/>
+  <synthesisOptions id="CATEGORY1349471539" value="true"/>
+  <synthesisOptions id="CATEGORY187480080" value="false"/>
+  <synthesisOptions id="TEXT1496690515" value=""/>
+  <synthesisOptions id="CHECK716299191" value="true"/>
+  <synthesisOptions id="CHECK1429401232" value="true"/>
+  <synthesisOptions id="CHECK-1371750530" value="true"/>
+  <synthesisOptions id="CHECK-1602903556" value="true"/>
+  <synthesisOptions id="CHECK-451810632" value="true"/>
+  <synthesisOptions id="CHECK-1824039104" value="true"/>
+  <synthesisOptions id="CHECK-730492532" value="false"/>
+  <synthesisOptions id="CHECK-1539637190" value="true"/>
+  <synthesisOptions id="TEXT-1269441222" value="de.cau.cs.kieler.klighd."/>
+  <synthesisOptions id="CHECK-1843689469" value="false"/>
+  <synthesisOptions id="CHECK-1862728420" value="true"/>
+  <synthesisOptions id="CHECK229385423" value="true"/>
+  <synthesisOptions id="CHECK-440347946" value="true"/>
+  <synthesisOptions id="CHECK927317685" value="true"/>
+  <synthesisOptions id="CHECK70476538" value="true"/>
+</model:OSGiViz>
