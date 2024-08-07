@@ -1,7 +1,7 @@
-FROM openjdk:17
+FROM eclipse-temurin:17
 
 WORKDIR /app
-COPY klighd-linux klighd-linux
+RUN wget https://github.com/kieler/klighd-vscode/releases/download/v0.5.0/klighd-linux
 RUN chmod u+x klighd-linux
 COPY de.cau.cs.kieler.spviz.osgiviz.language.server-0.1.0-SNAPSHOT-shaded.jar de.cau.cs.kieler.spviz.osgiviz.language.server-0.1.0-SNAPSHOT-shaded.jar
 COPY KLighD.osgi KLighD.osgi
