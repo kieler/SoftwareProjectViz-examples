@@ -3,9 +3,7 @@
 This is an example on how to deploy a diagram service for some example visualizations for the [KLighD project](https://github.com/kieler/klighd) using this OSGi example configuration and extractor in combination with Docker.
 
 To run this example, follow these steps:
-1. Do the steps to build the OSGiViz project from the configuration from the parent folder and let Maven build the language server.
-1. copy the language server jar into this folder.
-1. execute `docker compose up --build -d` in this folder to create and run a new container
+1. execute `docker compose up --build -d` one folder up from this one to create and run a new container
 1. open the `index.html` file in your browser, it should now show a few examples of OSGi visualizations of the KLighD project using SPViz!
 
 By default, this uses port 7001 and forwards that from the container to your host machine and uses the KLighD example.
