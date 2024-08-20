@@ -8,8 +8,7 @@ RUN chmod u+x klighd-linux
 ADD https://github.com/kieler/SoftwareProjectViz/releases/download/v0.4.0/spviz-cli.jar .
 
 # Copy the SPViz model files and generate and build their projects
-COPY osgi.spvizmodel osgi.spvizmodel
-COPY osgi.spviz osgi.spviz
+COPY osgi.spvizmodel osgi.spviz .
 RUN java -jar spviz-cli.jar osgi.spvizmodel osgi.spviz -o generated/ --build
 
 # Copy and build the modified generator
