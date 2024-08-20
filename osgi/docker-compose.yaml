@@ -2,5 +2,6 @@ services:
   spviz:
     build:
       context: .
-    network_mode: host
+    ports:
+      - 7001
     container_name: SPViz-OSGiViz
