@@ -9,10 +9,10 @@ ADD https://github.com/kieler/SoftwareProjectViz/releases/download/v0.4.0/spviz-
 
 # Copy the SPViz model files and generate and build their projects
 COPY osgi.spvizmodel osgi.spviz .
-RUN java -jar spviz-cli.jar osgi.spvizmodel osgi.spviz -o generated/ --build
+RUN java -jar spviz-cli.jar osgi.spvizmodel osgi.spviz -o generated/ --build \
+ && rm -rf generated/de.cau.cs.kieler.spviz.osgi.generate/
 
 # Copy and build the modified generator
-RUN rm -rf generated/de.cau.cs.kieler.spviz.osgi.generate/
 COPY de.cau.cs.kieler.spviz.osgi.generate/ generated/de.cau.cs.kieler.spviz.osgi.generate/
 RUN mvn clean package -f generated/de.cau.cs.kieler.spviz.osgiviz.build/pom.xml -P generator
 
