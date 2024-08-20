@@ -2,10 +2,10 @@ FROM maven:3.9.8-eclipse-temurin-17
 
 WORKDIR /app
 # Get the KLighD CLI
-RUN wget https://github.com/kieler/klighd-vscode/releases/download/v0.5.0/klighd-linux
+ADD https://github.com/kieler/klighd-vscode/releases/download/v0.5.0/klighd-linux .
 RUN chmod u+x klighd-linux
 # Get the SPViz CLI
-RUN wget https://github.com/kieler/SoftwareProjectViz/releases/download/v0.4.0/spviz-cli.jar
+ADD https://github.com/kieler/SoftwareProjectViz/releases/download/v0.4.0/spviz-cli.jar .
 
 # Copy the SPViz model files and generate and build their projects
 COPY osgi.spvizmodel osgi.spvizmodel
