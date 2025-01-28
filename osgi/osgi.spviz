@@ -31,11 +31,13 @@ SPViz OSGiViz {
 	AllDependencies {
 		show OSGi.Bundle
 		connect OSGi.Bundle.Dependency
+		// connect OSGi.Bundle via OSGi.Bundle.PackageDependency
 		connect OSGi.Bundle.PackageDependency
 	}
 	
 	Products {
 		show OSGi.Product
+		// connect OSGi.Bundle.Dependency via OSGi.Product>OSGi.Feature>OSGi.Bundle
 	}
 	Features {
 		show OSGi.Feature
