@@ -14,19 +14,34 @@ SPViz OSGiViz {
 		connect OSGi.ServiceComponent.Required via OSGi.Bundle in Services
 		connect OSGi.ServiceInterface.ProvidedBy via OSGi.Bundle in Services
 	}
-	BundleDependencies {
+	
+	RequireBundleDependencies {
 		show OSGi.Bundle
 		connect OSGi.Bundle.Dependency
-//		connect OSGi.Bundle via OSGi.Bundle.PackageDependency
 	}
+	
+	BundlePackageDependencies {
+		show OSGi.Bundle
+		show OSGi.Package
+		connect OSGi.Bundle.PackageExportDependency
+		connect OSGi.Bundle.PackageImportDependency
+		connect OSGi.Bundle.PackageDependency
+	}
+	
+	AllDependencies {
+		show OSGi.Bundle
+		connect OSGi.Bundle.Dependency
+		// connect OSGi.Bundle via OSGi.Bundle.PackageDependency
+		connect OSGi.Bundle.PackageDependency
+	}
+	
 	Products {
 		show OSGi.Product
-//		connect OSGi.Bundle.Dependency via OSGi.Product>OSGi.Feature>OSGi.Bundle
+		// connect OSGi.Bundle.Dependency via OSGi.Product>OSGi.Feature>OSGi.Bundle
 	}
 	Features {
 		show OSGi.Feature
-		connect OSGi.Bundle.Dependency via OSGi.Feature in BundleDependencies
-		// connect Feature to Feature via source Feature>Bundle and target Feature>Bundle >Dep
+		connect OSGi.Bundle.Dependency via OSGi.Feature in RequireBundleDependencies
 	}
 	
 	OSGi.Product shows {
@@ -34,15 +49,33 @@ SPViz OSGiViz {
 			OSGi.ServiceInterface from OSGi.Product>OSGi.Bundle>OSGi.ServiceInterface
 			OSGi.ServiceComponent from OSGi.Product>OSGi.Bundle>OSGi.ServiceComponent
 		}
-		BundleDependencies with {
+		RequireBundleDependencies with {
 			OSGi.Bundle from OSGi.Product>OSGi.Bundle
+		}
+		BundlePackageDependencies with {
+			OSGi.Bundle from OSGi.Product>OSGi.Bundle
+			OSGi.Package from  OSGi.Product>OSGi.Package
+		}
+		AllDependencies with {
+			OSGi.Bundle from OSGi.Product>OSGi.Bundle
+		}
+		Features with {
+			OSGi.Feature from OSGi.Product>OSGi.Feature
 		}
 	}
 	
 	OSGi.Feature shows {
-		BundleDependencies with {
+		RequireBundleDependencies with {
 			OSGi.Bundle from OSGi.Feature>OSGi.Bundle
 		}
+		BundlePackageDependencies with {
+			OSGi.Bundle from OSGi.Feature>OSGi.Bundle
+			OSGi.Package from OSGi.Feature>OSGi.Bundle>OSGi.Package
+		}
+		AllDependencies with {
+			OSGi.Bundle from OSGi.Feature>OSGi.Bundle
+		}
+		
 	}
 	
 	OSGi.Bundle shows {

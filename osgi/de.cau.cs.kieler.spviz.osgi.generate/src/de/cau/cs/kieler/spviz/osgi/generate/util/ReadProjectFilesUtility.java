@@ -15,7 +15,7 @@
 //
 // ******************************************************************************
 
-package de.cau.cs.kieler.spviz.osgi.generate;
+package de.cau.cs.kieler.spviz.osgi.generate.util;
 
 import java.lang.System.Logger;
 import java.util.Comparator;
@@ -38,7 +38,7 @@ public class ReadProjectFilesUtility {
 	 * This method takes an interface name, and returns the belonging bundle.
 	 *
 	 */
-	static Bundle getBundleFromInterface(String interfaceName, OSGiProject project) {
+	public static Bundle getBundleFromInterface(String interfaceName, OSGiProject project) {
 		return project.getBundles().stream()//
 				.filter(bundle -> interfaceName.startsWith(bundle.getName()))//
 				.max(Comparator.comparingInt(x -> x.getEcoreId().length()))
