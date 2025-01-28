@@ -2,7 +2,7 @@ FROM maven:3.9.8-eclipse-temurin-17
 
 WORKDIR /app
 # Get the KLighD CLI
-ADD https://github.com/kieler/klighd-vscode/releases/download/v0.5.0/klighd-linux .
+ADD https://github.com/kieler/klighd-vscode/releases/download/v0.6.0/klighd-linux .
 RUN chmod u+x klighd-linux
 # Get the SPViz CLI
 ADD https://github.com/kieler/SoftwareProjectViz/releases/download/v0.4.0/spviz-cli.jar .
@@ -24,4 +24,4 @@ COPY documentation-example/klighd2.osgiviz klighd2.osgiviz
 
 # Start the server
 EXPOSE 7001
-CMD ["./klighd-linux", "--ls_path", "generated/de.cau.cs.kieler.spviz.osgiviz.language.server/target/de.cau.cs.kieler.spviz.osgiviz.language.server-0.1.0-SNAPSHOT-shaded.jar", "-p", "7001", "serve"]
+CMD ["./klighd-linux", "--ls_path", "generated/de.cau.cs.kieler.spviz.osgiviz.language.server/target/de.cau.cs.kieler.spviz.osgiviz.language.server-0.1.0-SNAPSHOT-shaded.jar", "-p", "7001", "-a", "0.0.0.0", "serve"]

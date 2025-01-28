@@ -3,5 +3,5 @@ services:
     build:
       context: .
     ports:
-      - 7001
+      - 7001:7001
     container_name: SPViz-OSGiViz
