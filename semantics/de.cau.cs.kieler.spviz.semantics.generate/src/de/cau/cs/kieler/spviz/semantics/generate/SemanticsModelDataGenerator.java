@@ -22,13 +22,15 @@ public final class SemanticsModelDataGenerator {
      * @param projectFilePath The path to the project root folder
      * @param projectName     Descriptive name of the project
      * @param save    if true, model file will be saved under target/projectName.semantics
+     * @param noVersions    Determine if the extractor should add the versions to any module name/id.
      * @return The generated Semantics project data.
      */
-    public static SemanticsProject generateData(final String projectFilePath, final String projectName, Optional<String> modelSaveFilePath) {
+    public static SemanticsProject generateData(final String projectFilePath, final String projectName, Optional<String> modelSaveFilePath,
+    		boolean noVersions) {
 
         final ReadProjectFiles reader = new ReadProjectFiles();
         LOGGER.log(System.Logger.Level.INFO, "Generating data for " + projectName);
-        final SemanticsProject project = reader.generateData(new File(projectFilePath), projectName);
+        final SemanticsProject project = reader.generateData(new File(projectFilePath), projectName, noVersions);
         
         if (modelSaveFilePath.isPresent()) {
 

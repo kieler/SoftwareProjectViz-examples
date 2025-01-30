@@ -30,6 +30,7 @@ public class StaticVariables {
     static final String MANIFEST_FILE = "MANIFEST.MF";
     static final String META_INF_FOLDER = "META-INF/";
     static final String NOT_SET = "notSet";
+    static final String PARENT = "parent";
     static final String POM_FILE = "pom.xml";
     static final String PROJECT_TAG = "project";
     static final String PROJECT_FILE = ".project";

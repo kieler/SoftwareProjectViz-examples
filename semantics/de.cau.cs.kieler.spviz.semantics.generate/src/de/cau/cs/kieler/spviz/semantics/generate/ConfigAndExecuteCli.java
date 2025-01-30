@@ -42,6 +42,12 @@ public class ConfigAndExecuteCli implements Runnable {
             description = "The output path where the model is saved.")
     private String modelSaveFilePath;
     
+    /**
+     * Option to determine if the extractor should add the versions to any module name/id.
+     */
+    @Option(names = {"--no-versions"}, description = "Versions are not added to module names and IDs.")
+    private boolean noVersions = false;
+
     @Option(names = {"-h", "--help"}, usageHelp = true, description = "displays this help message.")
     protected boolean help;
 
@@ -80,7 +86,7 @@ public class ConfigAndExecuteCli implements Runnable {
                 LOGGER.log(System.Logger.Level.INFO, "Reading Project Data for " + projectNames.get(projectPathEntry.getKey()));
                 final String projectKey = projectPathEntry.getKey();
                 projectMap.put(projectKey, SemanticsModelDataGenerator.generateData(projectPathEntry.getValue().toString(),
-                        projectNames.get(projectKey), optionalModelSaveFilePath));
+                        projectNames.get(projectKey), optionalModelSaveFilePath, noVersions));
             }
 
             LOGGER.log(System.Logger.Level.INFO, "Semantics model generation has finished. The files can be found in " + modelSaveFilePath);

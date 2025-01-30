@@ -4,7 +4,7 @@
  * A part of Kieler
  * https://github.com/kieler
  * 
- * Copyright 2023 by
+ * Copyright 2023-2025 by
  * + Christian-Albrechts-University of Kiel
  *   + Department of Computer Science
  *     + Real-Time and Embedded Systems Group
@@ -100,14 +100,19 @@ public class ReadProjectFiles {
     private final Map<String, ComponentInterface> componentInterfaces = new HashMap<>();
     private final Map<String, ComponentImplementation> componentImplementations = new HashMap<>();
 
+    // Determines if the extractor should add the versions to any module name/id.
+    private boolean noVersions;
+
     /**
      * Fills the HashMaps with Data for all artifacts.
      *
      * @param projectPath to extract project data from
+     * @param noVersions    Determine if the extractor should add the versions to any module name/id.
      * @return SemanticsProject with all correctly connected project artifacts
      */
-    public SemanticsProject generateData(final File projectPath, final String projectName) {
+    public SemanticsProject generateData(final File projectPath, final String projectName, final boolean noVersions) {
         project.setProjectName(projectName);
+        this.noVersions = noVersions;
         
         // Find all modules by searching for .project files with a META-INF/MANIFEST.MF or a pom.xml
         // file next to it, providing the module name.
@@ -203,9 +208,13 @@ public class ReadProjectFiles {
     			final Attributes attributes = manifest.getMainAttributes();
     			
     			String symbolicName = getAndRemove(attributes, StaticVariables.BUNDLE_SYMBOLIC_NAME);
-    			name = symbolicName + ":" + getAndRemove(attributes, StaticVariables.BUNDLE_VERSION);
-				// Replace .qualifier with -SNAPSHOT for consistency.
-				name = replaceQualifier(name);
+    			if (noVersions) {
+    				name = symbolicName;
+    			} else {
+    				name = symbolicName + ":" + getAndRemove(attributes, StaticVariables.BUNDLE_VERSION);
+    				// Replace .qualifier with -SNAPSHOT for consistency.
+    				name = replaceQualifier(name);
+    			}
     			
     			// Create/update the module
     			module = createOrFindModule(name);
@@ -300,7 +309,8 @@ public class ReadProjectFiles {
 			// Read all declarations and search for interfaces.
 			@Override
 			public boolean visit(final TypeDeclaration node) {
-				if (node.isInterface()) {
+				// all interfaces, but also catch the diagram synthesis - it is not an interface, but an abstract class.
+				if (node.isInterface() || node.getName().toString().equals("AbstractDiagramSynthesis")) {
 					PackageDeclaration packageDecl = cu.getPackage();
 					String packageName = "(default).";
 					if (packageDecl != null) {
@@ -328,8 +338,23 @@ public class ReadProjectFiles {
 			// Extract model data for this module
 			final NodeList projectNodeChildren = findChildByTagName(pom.getChildNodes(), StaticVariables.PROJECT_TAG).getChildNodes();
 //			final String groupId = findChildByTagName(projectNodeChildren, StaticVariables.GROUP_ID).getTextContent().strip();
-			name = /*groupId + "." +*/ findChildByTagName(projectNodeChildren, StaticVariables.ARTIFACT_ID_TAG).getTextContent().strip()
-					+ ":" + findChildByTagName(projectNodeChildren, StaticVariables.VERSION_TAG).getTextContent().strip();
+			// Version is either in the pom directly or omitted and then the same as in the <parent> tag.
+			String version = "unknown";
+			Node versionNode = findChildByTagName(projectNodeChildren, StaticVariables.VERSION_TAG);
+			if (versionNode == null) {
+				Node parentNode = findChildByTagName(projectNodeChildren, StaticVariables.PARENT);
+				if (parentNode != null) {
+					versionNode = findChildByTagName(parentNode.getChildNodes(), StaticVariables.VERSION_TAG);
+					if (versionNode != null) {
+						version = versionNode.getTextContent().strip();
+					}
+				}
+			}
+			
+			name = /*groupId + "." +*/ findChildByTagName(projectNodeChildren, StaticVariables.ARTIFACT_ID_TAG).getTextContent().strip();
+			if (!noVersions) {
+				name += ":" + version;
+			}
 		} catch (ParserConfigurationException | SAXException | IOException e) {
 			LOGGER.log(Level.ERROR, "Could not parse pom.xml: " + pomFile.toString());
 			return name;
@@ -365,7 +390,8 @@ public class ReadProjectFiles {
 		String[] dependencyStrings = dependenciesFileString.split("\n");
 		// Check the first line that it repeats the current module.
 		Dependency thisModule = checkDependency(dependencyStrings[0]);
-		if (!moduleOrProduct.getName().equals(thisModule.artifactId + ":" + thisModule.version)) {
+		String compareTo = noVersions ? thisModule.artifactId : thisModule.artifactId + ":" + thisModule.version;
+		if (!moduleOrProduct.getName().equals(compareTo)) {
 			LOGGER.log(Level.ERROR, "The depepdencies.txt file does not have the same artifact ID and version as this module! This module: "
 					+ moduleOrProduct.getName() + ", dependencies.txt:" + thisModule.artifactId + ":" + thisModule.version);
 		}
@@ -399,7 +425,8 @@ public class ReadProjectFiles {
 			// else if the line indent stays equal, there is nothing to do.
 			
 			// Create/update the module
-			currentModule = createOrFindModule(currentDependency.artifactId + ":" + currentDependency.version);
+			String moduleId = noVersions ? currentDependency.artifactId : currentDependency.artifactId + ":" + currentDependency.version;
+			currentModule = createOrFindModule(moduleId);
 			
 			Identifiable currentParent = currentParents.lastElement();
 			if (currentParent instanceof Module && !((Module) currentParent).getConnectedDependencyModules().contains(currentModule)) {
