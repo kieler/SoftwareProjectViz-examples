@@ -2,6 +2,11 @@ package de.cau.cs.kieler.spviz.semanticsviz
 import "semantics.spvizmodel"
 
 SPViz SemanticsViz {
+	ProjectDependencies {
+		show Semantics.Project
+		connect Semantics.Module.Dependency via Semantics.Project in ModuleDependencies
+	}
+
 	Products {
 		show Semantics.Product
 	}
@@ -27,6 +32,12 @@ SPViz SemanticsViz {
 		connect Semantics.Module.Dependency
 //		connect Semantics.Module.ServiceProvision
 		connect Semantics.ComponentInterface.Provided via Semantics.Module in Services
+	}
+	
+	Semantics.Project shows {
+		ModuleDependencies with {
+			Semantics.Module from Semantics.Project>Semantics.Module
+		}
 	}
 	
 	Semantics.Product shows {

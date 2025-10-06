@@ -1,6 +1,10 @@
 package de.cau.cs.kieler.spviz.semantics
 
 SPVizModel Semantics {
+	Project {
+		contains Module
+	}
+	
 	Product {
 		contains Module
 	}

@@ -56,6 +56,7 @@ import org.xml.sax.SAXException;
 import de.cau.cs.kieler.spviz.semantics.model.SemanticsFactory;
 import de.cau.cs.kieler.spviz.semantics.model.SemanticsProject;
 import de.cau.cs.kieler.spviz.semantics.model.Product;
+import de.cau.cs.kieler.spviz.semantics.model.Project;
 import de.cau.cs.kieler.spviz.semantics.model.Module;
 import de.cau.cs.kieler.spviz.semantics.model.ComponentInterface;
 import de.cau.cs.kieler.spviz.semantics.model.Identifiable;
@@ -95,6 +96,7 @@ public class ReadProjectFiles {
 
     final SemanticsProject project = SemanticsFactory.eINSTANCE.createSemanticsProject();
 
+    private final Map<String, Project> projects= new HashMap<>();
     private final Map<String, Product> products = new HashMap<>();
     private final Map<String, Module> modules = new HashMap<>();
     private final Map<String, ComponentInterface> componentInterfaces = new HashMap<>();
@@ -236,6 +238,18 @@ public class ReadProjectFiles {
         
         // The module can neither be parsed by its Manifest, nor its pom, so it is not a module.
         if (module == null) return;
+        
+        // Add the module to its corresponding project, if the path is correct
+        String moduleRootString = moduleRoot.toString();
+        if (moduleRootString.contains("KIELER/KLighD")) {
+        	module.getProjects().add(createOrFindProject("KLighD"));
+        } else if (moduleRootString.contains("KIELER/elk")) {
+        	module.getProjects().add(createOrFindProject("ELK"));
+        } else if (moduleRootString.contains("KIELER/pragmatics")) {
+        	module.getProjects().add(createOrFindProject("Pragmatics"));
+        } else if (moduleRootString.contains("KIELER/semantics")) {
+        	module.getProjects().add(createOrFindProject("Semantics"));
+        }
         
         // Analyze and extract the (transient) dependencies.
         File dependenciesFile = new File(moduleRoot.toFile(), StaticVariables.DEPENDENCIES_FILE);
@@ -519,6 +533,28 @@ public class ReadProjectFiles {
             modules.put(name, theModule);
             project.getModules().add(theModule);
             return theModule;
+        }
+    }
+    
+    /**
+     * Return the project with the given name. If it was generated before, return that, or else return a new one.
+     * The {@code name} and {@code ecoreId} of the project are pre-set.
+     * 
+     * @param name The identifying name of the project.
+     * @return The (possibly newly created) project.
+     */
+    private Project createOrFindProject(String name) {
+        if (projects.containsKey(name)) {
+            return projects.get(name);
+        } else {
+            // Create a new project and set it up
+            final Project theProject= SemanticsFactory.eINSTANCE.createProject();
+            theProject.setName(name);
+            theProject.setEcoreId("PROJECT_" + toAscii(name));
+            theProject.setExternal(false);
+            projects.put(name, theProject);
+            project.getProjects().add(theProject);
+            return theProject;
         }
     }
     
